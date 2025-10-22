@@ -1,13 +1,26 @@
 .projects {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
 }
 .project {
     width: 80%;
     margin: 15px;
     padding: 10px 15px;
     background: gold;
+}
+.project img {
+    margin: 10px;
+    border: 2px solid royalblue;
+    display: block;
+    margin: auto;
+}
+.project p, h3 {
+    text-align: center;
+    margin: 15px;
+}
+a {
+    text-decoration: none;
+    color: royalblue;
 }
 body {
     background: aqua;
