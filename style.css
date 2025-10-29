@@ -1,5 +1,5 @@
 .projects {
-    display: flex;
+/*    display: flex;*/
     flex-wrap: wrap;
 }
 .project {
@@ -10,7 +10,7 @@
 }
 .project img {
     margin: 10px;
-    border: 2px solid royalblue;
+    border: 3px solid royalblue;
     display: block;
     margin: auto;
 }
@@ -42,4 +42,7 @@ h2 {
     font-style: italic;
     font-size: 25px;
     text-decoration: underline;
+}
+h3 {
+   text-transform: uppercase;
 }
