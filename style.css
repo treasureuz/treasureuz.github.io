@@ -1,5 +1,5 @@
 .projects {
-/*    display: flex;*/
+    display: flex;
     flex-wrap: wrap;
 }
 .project {
